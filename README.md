@@ -1,4 +1,4 @@
-# Employee turnover prediction in R
+# HR Analytics : Predicting Attrition in R
 
 ## Understanding The Challenge
 
