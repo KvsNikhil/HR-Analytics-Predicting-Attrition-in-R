@@ -1,32 +1,18 @@
 # Employee turnover prediction in R
 
-## Contextual overview
+## Understanding The Challenge
 
 <p align="justify">
-Employee turnover represents a major burden for companies because it leads to direct costs in the form of hiring costs, training costs, productivity loss, opportunity costs for accounts left unmanaged as well as indirect costs such as the loss of institutional knowledge and the impact on employee morale. <br> <br>
+Employee turnover can be a real headache for businesses, costing them not only in recruitment and training but also in lost productivity, missed opportunities, and reduced team morale. It’s not just about replacing someone who leaves—it’s about managing the ripple effects on the organization.
 
-This is the second of series of projects on workforce analytics. I first explored the issue of employee turnover in python using a decision tree classifier, this time I will use a different dataset, model and language to dive deeper into how employee turnover can be analyzed and predicted.
+This project builds on my earlier work in workforce analytics. Last time, I tackled employee turnover using Python and a decision tree classifier. Now, I’m shifting gears with a new dataset, a different approach, and R as the tool of choice to dig deeper into understanding and predicting why employees leave.
 </p>
 
-## Project objectives
+## Objectives Tackled
 
-1. Calculate the turnover rate and explore it across different dimensions.
-2. Identify talent segments and combine relevant data from multiple HR data sources to derive better insights.
-3. Use feature engineering to create new variables and exemplify the concept of information value (IV).
-4. Build a logistic regression model to predict turnover while accounting for multicollinearity among variables.
-5. Evaluate the accuracy of the model and categorize employees into specific risk buckets.
-6. Formulate an intervention strategy and estimate its return on investment (ROI).
-
-## Reproducibility guidelines
-
-For notebook-based projects, please refer directly to the Google Colab notebook I uploaded to this repository.
-
-## Technologies
-
-- R libraries: <br>
-  readr <br>
-  dplyr <br>
-  ggplot2 <br>
-  lubridate <br>
-  Information <br>
-  caret
+1. Turnover Insights: Calculate turnover rates and analyze them from multiple angles.
+2. Data Integration: Identify employee segments and combine data from different HR systems for more actionable insights.
+3. Feature Engineering: Create meaningful variables and demonstrate how information value (IV) can enhance analysis.
+4. Logistic Regression Modeling: Develop a predictive model to assess attrition while managing variable multicollinearity.
+5. Model Evaluation: Test the model’s accuracy and classify employees into risk categories.Evaluate the accuracy of the model and categorize employees into specific risk buckets.
+6. Strategic Planning: Design a targeted intervention strategy and estimate its ROI to show the business impact.
